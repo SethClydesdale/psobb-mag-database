@@ -51,10 +51,10 @@ local filter_list = {
   "PB Estlla",
   "PB Leilla",
   "PB Farlla",
-  "AB Invulnerability", -- TODO
-  "AB Shifta & Deband", -- TODO
-  "AB Resta", -- TODO
-  "AB Reverser" -- TODO
+  "AB Invulnerability",
+  "AB Shifta & Deband",
+  "AB Resta",
+  "AB Reverser"
 }
 
 local cols = { "Item", "Synchro", "IQ", "DEF", "POW", "DEX", "MIND" } -- head titles for our table
