@@ -249,7 +249,7 @@ local mag_list = {
     "Savitri"
   },
   
-  ["Bluefall"] = {
+  ["Bluefull"] = {
     "Deva",
     "Rukmin",
     "Sato"
@@ -519,7 +519,7 @@ local even_mags = {
   "Varaha"
 }
 
-local odd_id = { "Greenill", "Bluefall", "Pinkal", "Oran", "Whitill" }
+local odd_id = { "Greenill", "Bluefull", "Pinkal", "Oran", "Whitill" }
 local odd_mags = {
   "Andhaka",
   "Apsaras",

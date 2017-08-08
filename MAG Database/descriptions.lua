@@ -71,7 +71,7 @@ local function CreateSection(MAG, Parse, lang)
       Parse(
         "Agysta" .. lang.mag_cell .. "Liberta Kit.",
         "Liberta Kit" .. lang.cell_src,
-        "  1. Ultimate Shambertin by players with the Viridia, Bluefall, Pinkal, Redria or Oran section ID.",
+        "  1. Ultimate Shambertin by players with the Viridia, Bluefull, Pinkal, Redria or Oran section ID.",
         "  2. 10 Gold badges via Badge Shop.",
         "  3. 5 Eggs via Egg Gambler.",
         "  4. 30 Eggs via Elly's Egg Shop.",
@@ -556,7 +556,7 @@ local function CreateSection(MAG, Parse, lang)
         "Rappy" .. lang.mag_cell .. "Rappy Beak.",
         "Rappy Beak" .. lang.cell_src,
         "  1. Hard Sand Rappy.",
-        "  2. Very Hard Sand Rappy by playings with the Viridia, Greenill, Bluefall, Purplenum, Oran, Yellowboze, or Whitill section id.",
+        "  2. Very Hard Sand Rappy by playings with the Viridia, Greenill, Bluefull, Purplenum, Oran, Yellowboze, or Whitill section id.",
         "  3. Coren 10k Gambler everyday.",
         lang.mag_cell_info
       )
@@ -676,7 +676,7 @@ local function CreateSection(MAG, Parse, lang)
         "Striker Unit" .. lang.mag_cell .. "Heaven Striker Coat.",
         "Heaven Striker Coat" .. lang.cell_src,
         "  1. Very Hard Pazuzu by players with the Purplenum section id.",
-        "  2. Very Hard Girtabululu by players with the Viridia, Bluefall, Redria, Yellowboze and Whitill section id.",
+        "  2. Very Hard Girtabululu by players with the Viridia, Bluefull, Redria, Yellowboze and Whitill section id.",
         lang.mag_cell_info
       )
       

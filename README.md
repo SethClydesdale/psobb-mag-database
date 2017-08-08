@@ -24,3 +24,8 @@ The information in this database may not be 100% complete or accurate. If you wa
 - Open a [new pull request](https://help.github.com/articles/about-pull-requests/) to merge your changes with this repository.
 
 Any help you're willing to offer is greatly appreciated !
+
+### Change Log
+
+#### v1.0.1
+- Fixed typo of the Bluefull section id. (Bluefall --> Bluefull)

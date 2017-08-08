@@ -43,7 +43,7 @@ local function CreateSection(MAG, Parse, lang)
         
         "#:Condition 1",
         lang.l_class, {"Hunter"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "POW >= MIND > DEX",
         
         "#:Condition 2",
@@ -70,7 +70,7 @@ local function CreateSection(MAG, Parse, lang)
         
         "#:Condition 1",
         lang.l_class, {"Hunter"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "MIND > POW >= DEF",
         
         "#:Condition 2",
@@ -113,7 +113,7 @@ local function CreateSection(MAG, Parse, lang)
         
         "#:Condition 3",
         lang.l_class, {"Force"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "DEF < 45 and DEX > MIND >= POW"
       )
       
@@ -154,7 +154,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "100, 110, 120, etc..",
         lang.l_class, {"Hunter"},
         lang.l_sex, {"Male"},
-        lang.l_secid, {"Viridia", "Bluefall", "Redria", "Whitill"},
+        lang.l_secid, {"Viridia", "Bluefull", "Redria", "Whitill"},
         lang.l_stats .. "DEF + DEX = POW + MIND"
       )
       
@@ -195,7 +195,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "Level 50, 55, 60, etc..",
         lang.l_class, {"Ranger"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "MIND > DEX > POW"
       )
       
@@ -215,7 +215,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_mag .. "2nd or 3rd tier",
         lang.l_lvl .. "50, 55, 60, etc..",
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         
         "#:Condition 1",
         lang.l_class, {"Hunter"},
@@ -290,7 +290,7 @@ local function CreateSection(MAG, Parse, lang)
         
         "#:Condition 2",
         lang.l_class, {"Force"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "MIND >= DEX > POW"
       )
       
@@ -307,7 +307,7 @@ local function CreateSection(MAG, Parse, lang)
         
         "#:Condition 2",
         lang.l_class, {"Ranger"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "MIND > POW >= DEX",
         
         "#:Condition 3",
@@ -322,7 +322,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "50, 55, 60, etc..",
         lang.l_class, {"Ranger"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "POW > MIND > DEX or" .. lang.nl .. "DEX >= POW > MIND"
       )
       
@@ -353,7 +353,7 @@ local function CreateSection(MAG, Parse, lang)
         
         "#:Condition 1",
         lang.l_class, {"Hunter"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "POW >= DEX >= MIND or" .. lang.nl .. "DEX = MIND",
         
         "#:Condition 2",
@@ -368,7 +368,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "50, 55, 60, etc..",
         lang.l_class, {"Force"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "DEF < 45 and MIND >= POW >= DEX or" .. lang.nl .. "DEF < 45 and POW = DEX"
       )
       
@@ -378,7 +378,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "50, 55, 60, etc..",
         lang.l_class, {"Ranger"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "POW > DEX >= MIND"
       )
       
@@ -388,7 +388,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "50, 55, 60, etc..",
         lang.l_class, {"Force"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "POW > DEX >= MIND"
       )
       
@@ -456,7 +456,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_stats .. "DEF < 45 and POW = DEX or" .. lang.nl .. "DEF < 45 and MIND >= POW >= DEX",
         
         "#:Condition 2",
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "DEF < 45 and POW > MIND > DEX"
       )
       
@@ -498,7 +498,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_sex, {"Male"},
         
         "#:Condition 1",
-        lang.l_secid, {"Viridia", "Bluefall", "Redria", "Whitill"},
+        lang.l_secid, {"Viridia", "Bluefull", "Redria", "Whitill"},
         lang.l_stats .. "DEF + DEX = POW + MIND",
         
         "#:Condition 2",
@@ -549,7 +549,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "100+",
         lang.l_class, {"Any"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_cell .. "Cell of MAG 213"
       )
       
@@ -580,7 +580,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "100+",
         lang.l_class, {"Any"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_cell .. "Cell of MAG 502"
       )
       
@@ -592,7 +592,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_sex, {"Male"},
         
         "#:Condition 1",
-        lang.l_secid, {"Viridia", "Bluefall", "Redria", "Whitill"},
+        lang.l_secid, {"Viridia", "Bluefull", "Redria", "Whitill"},
         lang.l_stats .. "DEF + DEX = POW + MIND",
         
         "#:Condition 2",
@@ -689,7 +689,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_sex, {"Female"},
         
         "#:Condition 1",
-        lang.l_secid, {"Viridia", "Bluefall", "Redria", "Whitill"},
+        lang.l_secid, {"Viridia", "Bluefull", "Redria", "Whitill"},
         lang.l_stats .. "DEF + DEX = POW + MIND",
         
         "#:Condition 2",
@@ -703,7 +703,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "100, 110, 120, etc..",
         lang.l_class, {"Force"},
         lang.l_sex, {"Female"},
-        lang.l_secid, {"Viridia", "Bluefall", "Redria", "Whitill"},
+        lang.l_secid, {"Viridia", "Bluefull", "Redria", "Whitill"},
         lang.l_stats .. "DEF + DEX = POW + MIND"
       )
       
@@ -715,7 +715,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_sex, {"Female"},
         
         "#:Condition 1",
-        lang.l_secid, {"Viridia", "Bluefall", "Redria", "Whitill"},
+        lang.l_secid, {"Viridia", "Bluefull", "Redria", "Whitill"},
         lang.l_stats .. "DEF + DEX = POW + MIND",
         
         "#:Condition 2",
@@ -754,7 +754,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "50, 55, 60, etc..",
         lang.l_class, {"Hunter"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "MIND > DEX > POW"
       )
       
@@ -846,7 +846,7 @@ local function CreateSection(MAG, Parse, lang)
         
         "#:Condition 3",
         lang.l_class, {"Ranger"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "DEX >= MIND >= POW or" .. lang.nl .. "POW = MIND"
       )
       
@@ -894,7 +894,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_lvl .. "50, 55, 60, etc..",
         lang.l_class, {"Hunter"},
         lang.l_sex, {"Any"},
-        lang.l_secid, {"Greenill", "Bluefall", "Pinkal", "Oran", "Whitill"},
+        lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
         lang.l_stats .. "DEX > MIND >= POW"
       )
     end

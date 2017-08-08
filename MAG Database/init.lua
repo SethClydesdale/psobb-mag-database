@@ -35,7 +35,7 @@ local filter_list = {
   "Force",
   "Male",
   "Female",
-  "Bluefall",
+  "Bluefull",
   "Greenill",
   "Oran",
   "Pinkal",
@@ -142,7 +142,7 @@ local function ColorKeyword(...)
       color = { 0.50, 1, 0 }
     elseif keyword == "skyly" then
       color = { 0.30, 255, 255 }
-    elseif keyword == "bluefall" then
+    elseif keyword == "bluefull" then
       color = { 0, 0.50, 1 }
     elseif keyword == "purplenum" then
       color = { 0.65, 0.30, 1 }
@@ -408,7 +408,7 @@ local function init()
   
   return {
     name = "MAG Database",
-    version = "1.0.0",
+    version = "1.0.1",
     author = "Seth Clydesdale",
     description = "A database full of information on MAGs.",
     present = present
