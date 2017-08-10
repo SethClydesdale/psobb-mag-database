@@ -67,6 +67,40 @@ local function CreateSection(MAG, Parse, lang)
         imgui.TreePop()
       end
       
+      -- mag colors
+      if imgui.TreeNodeEx("Mag Colors") then
+        Parse(
+          "The resulting color of your mag is determined by the costume picked during the creation of your character. Below is a list of all the mag colors and the costume you have to pick to acquire a mag with that color.",
+          "  - Costume 1-1: Red",
+          "  - Costume 1-2: Blue",
+          "  - Costume 1-3: Yellow",
+          "  - Costume 1-4: Green",
+          "  - Costume 1-5: Purple",
+          "  - Costume 1-6: Black",
+          "  - Costume 1-7: White",
+          "  - Costume 1-8: Cyan",
+          "  - Costume 1-9: Brown",
+          "  - Costume 2-1: Orange",
+          "  - Costume 2-2: Slate Blue",
+          "  - Costume 2-3: Olive",
+          "  - Costume 2-4: Turquoise",
+          "  - Costume 2-5: Fuschia",
+          "  - Costume 2-6: Grey",
+          "  - Costume 2-7: Cream",
+          "  - Costume 2-8: Pink",
+          "  - Costume 2-9: Dark Green",
+          "  - Costume 3-1: Red",
+          "  - Costume 3-2: Blue",
+          "  - Costume 3-3: Yellow",
+          "  - Costume 3-4: Green",
+          "  - Costume 3-5: Purple",
+          "  - Costume 3-6: Black",
+          "  - Costume 3-7: White"
+        )
+        
+        imgui.TreePop()
+      end
+      
     elseif MAG == "Agysta" then
       Parse(
         "Agysta" .. lang.mag_cell .. "Liberta Kit.",

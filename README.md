@@ -27,5 +27,8 @@ Any help you're willing to offer is greatly appreciated !
 
 ### Change Log
 
+#### v1.0.2
+- Added mag colors to the unevolved mag page.
+
 #### v1.0.1
 - Fixed typo of the Bluefull section id. (Bluefall --> Bluefull)
