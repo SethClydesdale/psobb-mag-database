@@ -5,7 +5,13 @@ local function CreateSection(MAG, Parse, lang)
       Parse("NoSpacing", "No abilities.")
       
     elseif MAG == "Agysta" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Andhaka" then
       Parse("NoSpacing",
@@ -17,7 +23,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Angel Wings" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. "UNKNOWN",
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Apsaras" then
       Parse("NoSpacing",
@@ -65,13 +77,31 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Chao" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Churel" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_heal,
+        lang.l_boss .. lang.ab_heal,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Chu Chu" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_buff,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Deva" then
       Parse("NoSpacing",
@@ -83,10 +113,22 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Devil Wings" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. "UNKNOWN",
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Devil Tail" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. "UNKNOWN",
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Diwari" then
       Parse("NoSpacing",
@@ -107,7 +149,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Dreamcast" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Garuda" then
       Parse("NoSpacing",
@@ -119,16 +167,40 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Gael Gill" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. "-"
+      )
       
     elseif MAG == "Genesis" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. "UNKNOWN",
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. "UNKNOWN",
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Geung Si" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_heal,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Hamburger" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Ila" then
       Parse("NoSpacing",
@@ -167,7 +239,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Kapu Kapu" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Kama" then
       Parse("NoSpacing",
@@ -218,7 +296,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Master System" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. "UNKNOWN",
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. "UNKNOWN",
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Mitra" then
       Parse("NoSpacing",
@@ -230,7 +314,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Moro" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_heal,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Naga" then
       Parse("NoSpacing",
@@ -281,25 +371,61 @@ local function CreateSection(MAG, Parse, lang)
       Parse("NoSpacing", "UNKNOWN")
       
     elseif MAG == "Opa Opa" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Panzer's Tail" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. "UNKNOWN",
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "PB Elenor" then
       Parse("NoSpacing", "UNKNOWN")
       
     elseif MAG == "Pretra" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_buff,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_buff,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Pian" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Pioneer 2" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Pitri" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_heal,
+        lang.l_boss .. lang.ab_heal,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Pushan" then
       Parse("NoSpacing",
@@ -311,10 +437,22 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Puyo" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_buff,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. lang.ab_buff,
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Rappy" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_heal,
+        lang.l_boss .. lang.ab_heal,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Rati" then
       Parse("NoSpacing",
@@ -344,7 +482,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "RoboChao" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Rudra" then
       Parse("NoSpacing",
@@ -383,7 +527,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Sega Saturn" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. "UNKNOWN",
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. "UNKNOWN",
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Sita" then
       Parse("NoSpacing",
@@ -404,10 +554,27 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Soniti" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Striker Unit" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_heal,
+        lang.l_boss .. lang.ab_heal,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive,
+        "#:Special"
+      )
+      
+      imgui.PushTextWrapPos(imgui.GetWindowSize() - 30)
+      imgui.Text("The abilities of the Heaven Striker are enhanced when used in conjunction with the Striker Unit. First, the MST of the Heaven Striker is boosted by 25. Secondly, the special changes to Heaven Punishment (ie it can shoot up to 12 MST-based light element beams with one attack). The special attack only works when the first digit of the beat time is an even number.")
+      imgui.PopTextWrapPos()
       
     elseif MAG == "Sumba" then
       Parse("NoSpacing",
@@ -437,7 +604,18 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Tellusis" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. lang.ab_revive,
+        "#:Special"
+      )
+      
+      imgui.PushTextWrapPos(imgui.GetWindowSize() - 30)
+      imgui.Text("When used in conjunction with Excalibur, light (ELT) and dark (EDK) resistances are boosted by 10. Also, the animation speed of the Excalibur will be increased by 20%.")
+      imgui.PopTextWrapPos()
       
     elseif MAG == "Ushasu" then
       Parse("NoSpacing",
@@ -485,7 +663,13 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Yahoo!" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. "-",
+        lang.l_0hp .. "UNKNOWN"
+      )
       
     elseif MAG == "Yaksa" then
       Parse("NoSpacing",

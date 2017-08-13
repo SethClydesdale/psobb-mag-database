@@ -27,6 +27,9 @@ Any help you're willing to offer is greatly appreciated !
 
 ### Change Log
 
+#### V1.0.3
+- Added missing ability information for mag cells. There are still some unknowns, however, this update should fill in a large portion of previously unknown data.
+
 #### v1.0.2
 - Added mag colors to the unevolved mag page.
 
