@@ -590,7 +590,7 @@ local function CreateSection(MAG, Parse, lang)
         "Rappy" .. lang.mag_cell .. "Rappy Beak.",
         "Rappy Beak" .. lang.cell_src,
         "  1. Hard Sand Rappy.",
-        "  2. Very Hard Sand Rappy by playings with the Viridia, Greenill, Bluefull, Purplenum, Oran, Yellowboze, or Whitill section id.",
+        "  2. Very Hard Sand Rappy by players with the Viridia, Greenill, Bluefull, Purplenum, Oran, Yellowboze, or Whitill section id.",
         "  3. Coren 10k Gambler everyday.",
         lang.mag_cell_info
       )

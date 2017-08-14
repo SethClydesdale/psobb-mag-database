@@ -27,6 +27,10 @@ Any help you're willing to offer is greatly appreciated !
 
 ### Change Log
 
+#### v1.0.4
+- Added additional information to mag cell descriptions.
+- Fixed various typos.
+
 #### V1.0.3
 - Added missing ability information for mag cells. There are still some unknowns, however, this update should fill in a large portion of previously unknown data.
 

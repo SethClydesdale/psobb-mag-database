@@ -408,7 +408,7 @@ local function init()
   
   return {
     name = "MAG Database",
-    version = "1.0.3",
+    version = "1.0.4",
     author = "Seth Clydesdale",
     description = "A database full of information on MAGs.",
     present = present

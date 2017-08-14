@@ -71,7 +71,7 @@ local function CreateSection(MAG, Parse, lang)
         "#:Condition 1",
         lang.l_class, {"Hunter"},
         lang.l_secid, {"Greenill", "Bluefull", "Pinkal", "Oran", "Whitill"},
-        lang.l_stats .. "MIND > POW >= DEF",
+        lang.l_stats .. "MIND > POW >= DEX",
         
         "#:Condition 2",
         lang.l_class, {"Force"},
