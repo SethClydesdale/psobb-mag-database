@@ -4,18 +4,20 @@ local function CreateSection(MAG, Parse, lang)
     if MAG == "Mag" then
       Parse("NoSpacing", "No abilities.")
       
-    elseif MAG == "Agysta" then
+    elseif MAG == "Agastya" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_heal,
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Andhaka" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_estlla,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -25,15 +27,17 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Angel Wings" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
-        lang.l_full .. "UNKNOWN",
+        lang.l_act .. "50%%",
+        lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_nodam,
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Apsaras" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_estlla,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -43,6 +47,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Ashvinau" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
+        lang.l_act .. "40%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. "-",
         lang.l_10hp .. lang.ab_buff,
@@ -52,6 +57,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Bana" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_estlla,
+        lang.l_act .. "20%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -61,6 +67,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Bhima" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -70,6 +77,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Bhirava" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
+        lang.l_act .. "30%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -79,6 +87,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Chao" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -88,8 +97,9 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Churel" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_heal,
-        lang.l_boss .. lang.ab_heal,
+        lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
         lang.l_0hp .. lang.ab_revive
       )
@@ -97,6 +107,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Chu Chu" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_nodam,
@@ -106,33 +117,37 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Deva" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
         lang.l_0hp .. lang.ab_revive
       )
       
-    elseif MAG == "Devil Wings" then
-      Parse("NoSpacing",
-        lang.l_pb .. "-",
-        lang.l_full .. "UNKNOWN",
-        lang.l_boss .. lang.ab_buff,
-        lang.l_10hp .. lang.ab_heal,
-        lang.l_0hp .. "UNKNOWN"
-      )
-      
     elseif MAG == "Devil Tail" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
-        lang.l_full .. "UNKNOWN",
+        lang.l_act .. "50%%",
+        lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_nodam,
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_0hp .. lang.ab_revive
+      )
+      
+    elseif MAG == "Devil Wings" then
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_act .. "50%%",
+        lang.l_full .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Diwari" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -142,6 +157,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Durga" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_estlla,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -151,6 +167,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Dreamcast" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "70%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -160,42 +177,47 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Garuda" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
+        lang.l_act .. "30%%",
         lang.l_full .. lang.ab_heal,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
         lang.l_0hp .. lang.ab_revive
       )
       
-    elseif MAG == "Gael Gill" then
+    elseif MAG == "Gael Giel" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_nodam,
-        lang.l_0hp .. "-"
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Genesis" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
-        lang.l_full .. "UNKNOWN",
+        lang.l_act .. "30%%",
+        lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
-        lang.l_10hp .. "UNKNOWN",
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. "-"
       )
       
     elseif MAG == "Geung Si" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_heal,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Hamburger" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -205,6 +227,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Ila" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "25%%",
         lang.l_full .. "-",
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -214,6 +237,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Kabanda" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_buff,
@@ -223,6 +247,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Kaitabha" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "30%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -232,6 +257,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Kalki" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_estlla,
+        lang.l_act .. "40%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. "-",
@@ -241,6 +267,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Kapu Kapu" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -251,6 +278,7 @@ local function CreateSection(MAG, Parse, lang)
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
         lang.l_full .. "-",
+        lang.l_act .. "25%%",
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_buff,
         lang.l_0hp .. lang.ab_revive
@@ -259,6 +287,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Kumara" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "35%%",
         lang.l_full .. lang.ab_heal,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
@@ -268,6 +297,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Madhu" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "20%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -277,6 +307,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Marica" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
+        lang.l_act .. "30%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -284,11 +315,12 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "Mark 3" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing", "No abilities.")
       
     elseif MAG == "Marutah" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
+        lang.l_act .. "40%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. "-",
         lang.l_10hp .. lang.ab_heal,
@@ -298,15 +330,17 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Master System" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
-        lang.l_full .. "UNKNOWN",
+        lang.l_act .. "15%%",
+        lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
-        lang.l_10hp .. "UNKNOWN",
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_10hp .. "-",
+        lang.l_0hp .. "-"
       )
       
     elseif MAG == "Mitra" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
+        lang.l_act .. "40%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. "-",
         lang.l_10hp .. lang.ab_buff,
@@ -316,15 +350,17 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Moro" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Naga" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "20%%",
         lang.l_full .. "-",
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_buff,
@@ -334,6 +370,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Namuci" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "45%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
@@ -343,6 +380,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Nandin" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_estlla,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -352,6 +390,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Naraka" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "30%%",
         lang.l_full .. lang.ab_heal,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
@@ -361,6 +400,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Nidra" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -368,11 +408,12 @@ local function CreateSection(MAG, Parse, lang)
       )
       
     elseif MAG == "No-PB Elenor" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing", "No abilities.")
       
     elseif MAG == "Opa Opa" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -382,18 +423,27 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Panzer's Tail" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
-        lang.l_full .. "UNKNOWN",
+        lang.l_act .. "50%%",
+        lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_nodam,
         lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "PB Elenor" then
-      Parse("NoSpacing", "UNKNOWN")
+      Parse("NoSpacing",
+        lang.l_pb .. "-",
+        lang.l_act .. "50%%",
+        lang.l_full .. lang.ab_buff,
+        lang.l_boss .. lang.ab_buff,
+        lang.l_10hp .. lang.ab_nodam,
+        lang.l_0hp .. lang.ab_revive
+      )
       
     elseif MAG == "Pretra" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_buff,
@@ -403,6 +453,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Pian" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -412,15 +463,17 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Pioneer 2" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_heal,
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Pitri" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_heal,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
@@ -430,6 +483,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Pushan" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -439,24 +493,27 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Puyo" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_buff,
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Rappy" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_heal,
-        lang.l_boss .. lang.ab_heal,
-        lang.l_10hp .. lang.ab_nodam,
+        lang.l_boss .. lang.ab_nodam,
+        lang.l_10hp .. lang.ab_heal,
         lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Rati" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -466,6 +523,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Ravana" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_farlla,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_buff,
@@ -475,6 +533,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Ribhava" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_farlla,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -484,6 +543,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "RoboChao" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -493,6 +553,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Rudra" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -502,6 +563,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Rukmin" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -511,6 +573,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Sato" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -520,6 +583,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Savitri" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_buff,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -529,15 +593,17 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Sega Saturn" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
-        lang.l_full .. "UNKNOWN",
+        lang.l_act .. "50%%",
+        lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
-        lang.l_10hp .. "UNKNOWN",
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Sita" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_pilla,
+        lang.l_act .. "30%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -547,6 +613,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Soma" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_estlla,
+        lang.l_act .. "25%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -556,6 +623,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Soniti" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -565,6 +633,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Striker Unit" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "55%%",
         lang.l_full .. lang.ab_heal,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
@@ -579,6 +648,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Sumba" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -588,6 +658,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Surya" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -597,6 +668,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Tapas" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "45%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
@@ -606,6 +678,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Tellusis" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "55%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
         lang.l_10hp .. lang.ab_nodam,
@@ -620,6 +693,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Ushasu" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "35%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -629,6 +703,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Varaha" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "30%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,
@@ -638,6 +713,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Varuna" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_farlla,
+        lang.l_act .. "40%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. "-",
@@ -647,6 +723,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Vayu" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_my,
+        lang.l_act .. "45%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. lang.ab_heal,
@@ -656,6 +733,7 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Vritra" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_leilla,
+        lang.l_act .. "40%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_heal,
         lang.l_10hp .. "-",
@@ -665,15 +743,17 @@ local function CreateSection(MAG, Parse, lang)
     elseif MAG == "Yahoo!" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
+        lang.l_act .. "50%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_nodam,
-        lang.l_10hp .. "-",
-        lang.l_0hp .. "UNKNOWN"
+        lang.l_10hp .. lang.ab_heal,
+        lang.l_0hp .. lang.ab_revive
       )
       
     elseif MAG == "Yaksa" then
       Parse("NoSpacing",
         lang.l_pb .. lang.pb_golla,
+        lang.l_act .. "35%%",
         lang.l_full .. lang.ab_nodam,
         lang.l_boss .. lang.ab_buff,
         lang.l_10hp .. lang.ab_heal,

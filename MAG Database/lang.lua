@@ -19,7 +19,8 @@ return {
   ["no_evolution"] = "Fourth evolution MAGs will not evolve further.",
   
   ["mag_cell"] = " can be acquired by feeding a Tier 3 or lower mag ",
-  ["mag_cell_info"] = "EP 1 & 2 mag cells can be found from holiday rappies during certain special events/periods. Haloween mag cells can also be found from pumpkins from the Jack O' Lantern Quest. EP 1 & 2 mag cells cannot be used on mags that have previously been created using another mag cell or any 4th evolution mags including new EP 1 & 2 special mags.\n\nFor a tier 3 or lower mag to become a special mag, you must have a mag equipped that meets the evolution conditions and use the mag cell from your inventory.",
+  ["mag_cell_info"] = "EP 1 & 2 mag cells can be found from holiday rappies during certain special events/periods. Haloween mag cells can also be found from pumpkins from the Jack O' Lantern Quest. EP 1 & 2 mag cells cannot be used on mags that have previously been created using another mag cell or any 4th evolution mags including new EP 1 & 2 special mags." ..
+  "\n\nFor a tier 3 or lower mag to become a special mag, you must have a mag equipped that meets the evolution conditions and use the mag cell from your inventory.",
   ["cell_src"] = " can be acquired from :",
   
   ["mag_xmas"] = "  1. Holiday Rappy : Saint Rappy/Christmas Present.",
@@ -35,11 +36,12 @@ return {
     ["l_stats"] = " MAG Stats : ",
      ["l_cell"] = "  MAG Cell : ",
   ["l_special"] = "   Special : ",
-     ["l_pb"] = "Photon Blast : ",
-   ["l_full"] = "  Full Meter : ",
-   ["l_boss"] = "        Boss : ",
-   ["l_10hp"] = "      10%% HP : ",
-    ["l_0hp"] = "        0 HP : ",
+     ["l_pb"] = "   Photon Blast : ",
+    ["l_act"] = "Activation Rate : ",
+   ["l_full"] = "     Full Meter : ",
+   ["l_boss"] = "           Boss : ",
+   ["l_10hp"] = "         10%% HP : ",
+    ["l_0hp"] = "           0 HP : ",
        ["nl"] = "\n             ", -- newline with the same length as labels ; used for multiple conditions under one label
   
   -- photon blasts

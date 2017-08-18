@@ -2,7 +2,7 @@
 local mag_list = {
   ["MAGs"] = {
     "Mag",
-    "Agysta",
+    "Agastya",
     "Andhaka",
     "Angel Wings",
     "Apsaras",
@@ -20,7 +20,7 @@ local mag_list = {
     "Durga",
     "Dreamcast",
     "Garuda",
-    "Gael Gill",
+    "Gael Giel",
     "Genesis",
     "Geung Si",
     "Hamburger",
@@ -137,15 +137,15 @@ local mag_list = {
   },
   
   ["Mag Cell"] = {
-    "Agysta",
+    "Agastya",
     "Angel Wings",
     "Chao",
     "Churel",
     "Chu Chu",
-    "Devil Wings",
     "Devil Tail",
+    "Devil Wings",
     "Dreamcast",
-    "Gael Gill",
+    "Gael Giel",
     "Genesis",
     "Geung Si",
     "Hamburger",

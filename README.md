@@ -15,7 +15,7 @@ MAG Database doesn't open automatically since it's a reference resource that you
 After this you can select a mag from the drop down and narrow down the list by using the filters.
 
 ### Preview
-[![](https://i11.servimg.com/u/f11/18/21/41/30/pso13123.jpg)](https://i11.servimg.com/u/f11/18/21/41/30/pso13123.jpg)
+[![](https://i11.servimg.com/u/f11/18/21/41/30/pso13127.jpg)](https://i11.servimg.com/u/f11/18/21/41/30/pso13127.jpg)
 
 ### Notice
 The information in this database may not be 100% complete or accurate. If you want to help improve it, please feel free to :
@@ -26,6 +26,12 @@ The information in this database may not be 100% complete or accurate. If you wa
 Any help you're willing to offer is greatly appreciated !
 
 ### Change Log
+
+#### v1.0.5
+- Added activation rates for mag triggers.
+- Filled in remaining mag trigger information that was marked "UNKNOWN." All mag triggers should be filled in now. If any are incorrect or missing let me know and I'll fix them.
+- Fixed incorrect information for some mag triggers.
+- Fixed more typos.
 
 #### v1.0.4
 - Added additional information to mag cell descriptions.

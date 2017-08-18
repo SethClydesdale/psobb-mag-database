@@ -4,7 +4,7 @@ local function CreateSection(MAG, Parse, lang)
     if MAG == "Mag" then
       Parse("NoSpacing", "No evolution conditions.")
       
-    elseif MAG == "Agysta" then
+    elseif MAG == "Agastya" then
       Parse("NoSpacing",
         lang.l_mag .. "2nd or 3rd tier",
         lang.l_lvl .. "50",
@@ -158,6 +158,16 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_stats .. "DEF + DEX = POW + MIND"
       )
       
+    elseif MAG == "Devil Tail" then
+      Parse("NoSpacing",
+        lang.l_mag .. "Devil Wings",
+        lang.l_lvl, {"Any"},
+        lang.l_class, {"Any"},
+        lang.l_sex, {"Any"},
+        lang.l_secid, {"Any"},
+        lang.l_cell .. "Heart of Devil"
+      )
+      
     elseif MAG == "Devil Wings" then
       Parse("NoSpacing",
         lang.l_mag .. "2nd or 3rd tier",
@@ -167,16 +177,6 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_secid, {"Any"},
         lang.l_cell .. "Heart of Devil",
         lang.l_special .. "No Androids"
-      )
-      
-    elseif MAG == "Devil Tail" then
-      Parse("NoSpacing",
-        lang.l_mag .. "Devil Wings",
-        lang.l_lvl, {"Any"},
-        lang.l_class, {"Any"},
-        lang.l_sex, {"Any"},
-        lang.l_secid, {"Any"},
-        lang.l_cell .. "Heart of Devil"
       )
       
     elseif MAG == "Diwari" then
@@ -226,7 +226,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_stats .. "DEX > POW > MIND and DEF < 45"
       )
       
-    elseif MAG == "Gael Gill" then
+    elseif MAG == "Gael Giel" then
       Parse("NoSpacing",
         lang.l_mag .. "Kama",
         lang.l_lvl .. "100",

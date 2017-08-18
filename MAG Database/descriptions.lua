@@ -101,9 +101,9 @@ local function CreateSection(MAG, Parse, lang)
         imgui.TreePop()
       end
       
-    elseif MAG == "Agysta" then
+    elseif MAG == "Agastya" then
       Parse(
-        "Agysta" .. lang.mag_cell .. "Liberta Kit.",
+        "Agastya" .. lang.mag_cell .. "Liberta Kit.",
         "Liberta Kit" .. lang.cell_src,
         "  1. Ultimate Shambertin by players with the Viridia, Bluefull, Pinkal, Redria or Oran section ID.",
         "  2. 10 Gold badges via Badge Shop.",
@@ -221,18 +221,18 @@ local function CreateSection(MAG, Parse, lang)
         lang.no_evolution
       )
       
-    elseif MAG == "Devil Wings" then
+    elseif MAG == "Devil Tail" then
       Parse(
-        "Devil Wings" .. lang.mag_cell .. "Heart of Devil.",
+        "Devil Tail can be acquired by feeding Devil Wings Heart of Devil.",
         "Heart of Devil" .. lang.cell_src,
         lang.mag_xmas,
         lang.mag_1_ticket,
         lang.mag_cell_info
       )
       
-    elseif MAG == "Devil Tail" then
+    elseif MAG == "Devil Wings" then
       Parse(
-        "Devil Tail can be acquired by feeding Devil Wings Heart of Devil.",
+        "Devil Wings" .. lang.mag_cell .. "Heart of Devil.",
         "Heart of Devil" .. lang.cell_src,
         lang.mag_xmas,
         lang.mag_1_ticket,
@@ -274,9 +274,9 @@ local function CreateSection(MAG, Parse, lang)
         "A Garuda" .. lang.can_continue_evolution
       )
       
-    elseif MAG == "Gael Gill" then
+    elseif MAG == "Gael Giel" then
       Parse(
-        "Gael Gill" .. lang.mag_cell .. "D-Photon Core.",
+        "Gael Giel" .. lang.mag_cell .. "D-Photon Core.",
         "D-Photon Core" .. lang.cell_src,
         "Ultimate Olga Flow by players with the Greenill, Skyly, Redria or Whitill section ID.",
         lang.mag_cell_info
