@@ -120,9 +120,9 @@ local function CreateSection(MAG, Parse, lang)
         "An Andhaka " .. lang.can_continue_evolution
       )
       
-    elseif MAG == "Angel Wings" then
+    elseif MAG == "Angel's Wing" then
       Parse(
-        "Angel Wings" .. lang.mag_cell .. "Heart of Angel.",
+        "Angel's Wing" .. lang.mag_cell .. "Heart of Angel.",
         "Heart of Angel" .. lang.cell_src,
         lang.mag_xmas,
         lang.mag_1_ticket,
@@ -221,18 +221,18 @@ local function CreateSection(MAG, Parse, lang)
         lang.no_evolution
       )
       
-    elseif MAG == "Devil Tail" then
+    elseif MAG == "Devil's Tail" then
       Parse(
-        "Devil Tail can be acquired by feeding Devil Wings Heart of Devil.",
+        "Devil's Tail can be acquired by feeding Devil's Wing Heart of Devil.",
         "Heart of Devil" .. lang.cell_src,
         lang.mag_xmas,
         lang.mag_1_ticket,
         lang.mag_cell_info
       )
       
-    elseif MAG == "Devil Wings" then
+    elseif MAG == "Devil's Wing" then
       Parse(
-        "Devil Wings" .. lang.mag_cell .. "Heart of Devil.",
+        "Devil's Wing" .. lang.mag_cell .. "Heart of Devil.",
         "Heart of Devil" .. lang.cell_src,
         lang.mag_xmas,
         lang.mag_1_ticket,

@@ -226,7 +226,7 @@ end
 local function GetMAG(MAG)
   local chart_id = 1
   local tier = 0
-  local mag_cell = MAG == "Churel" or MAG == "Pretra" or MAG == "Pitri" or MAG == "Soniti" or MAG == "Chu Chu" or MAG == "Opa Opa" or MAG == "Kapu Kapu" or MAG == "Chao" or MAG == "RoboChao" or MAG == "Pian" or MAG == "Panzer's Tail" or MAG == "Devil Wings" or MAG == "Devil Tail" or MAG == "Hamburger" or MAG == "Mark 3" or MAG == "Master System" or MAG == "Genesis" or MAG == "Sega Saturn" or MAG == "Dreamcast" or MAG == "Angel Wings" or MAG == "Yahoo!" or MAG == "Rappy" or MAG == "Striker Unit" or MAG == "Agastya" or MAG == "Gael Giel" or MAG == "Geung Si" or MAG == "Moro" or MAG == "Pioneer 2" or MAG == "Puyo" or MAG == "Tellusis" or MAG == "PB Elenor" or MAG == "No-PB Elenor"
+  local mag_cell = MAG == "Churel" or MAG == "Pretra" or MAG == "Pitri" or MAG == "Soniti" or MAG == "Chu Chu" or MAG == "Opa Opa" or MAG == "Kapu Kapu" or MAG == "Chao" or MAG == "RoboChao" or MAG == "Pian" or MAG == "Panzer's Tail" or MAG == "Devil's Wing" or MAG == "Devil's Tail" or MAG == "Hamburger" or MAG == "Mark 3" or MAG == "Master System" or MAG == "Genesis" or MAG == "Sega Saturn" or MAG == "Dreamcast" or MAG == "Angel's Wing" or MAG == "Yahoo!" or MAG == "Rappy" or MAG == "Striker Unit" or MAG == "Agastya" or MAG == "Gael Giel" or MAG == "Geung Si" or MAG == "Moro" or MAG == "Pioneer 2" or MAG == "Puyo" or MAG == "Tellusis" or MAG == "PB Elenor" or MAG == "No-PB Elenor"
   local color
   
   -- determine what chart to display
@@ -408,7 +408,7 @@ local function init()
   
   return {
     name = "MAG Database",
-    version = "1.0.5",
+    version = "1.0.6",
     author = "Seth Clydesdale",
     description = "A database full of information on MAGs.",
     present = present

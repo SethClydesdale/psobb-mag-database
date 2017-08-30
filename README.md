@@ -27,6 +27,9 @@ Any help you're willing to offer is greatly appreciated !
 
 ### Change Log
 
+#### v1.0.6
+- Fixed some incorrect mag names.
+
 #### v1.0.5
 - Added activation rates for mag triggers.
 - Filled in remaining mag trigger information that was marked "UNKNOWN." All mag triggers should be filled in now. If any are incorrect or missing let me know and I'll fix them.

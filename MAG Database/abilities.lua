@@ -24,7 +24,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_0hp .. lang.ab_revive
       )
       
-    elseif MAG == "Angel Wings" then
+    elseif MAG == "Angel's Wing" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
         lang.l_act .. "50%%",
@@ -124,7 +124,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_0hp .. lang.ab_revive
       )
       
-    elseif MAG == "Devil Tail" then
+    elseif MAG == "Devil's Tail" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
         lang.l_act .. "50%%",
@@ -134,7 +134,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_0hp .. lang.ab_revive
       )
       
-    elseif MAG == "Devil Wings" then
+    elseif MAG == "Devil's Wing" then
       Parse("NoSpacing",
         lang.l_pb .. "-",
         lang.l_act .. "50%%",

@@ -24,7 +24,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_stats .. "POW > DEX >= MIND and DEF >= 45"
       )
           
-    elseif MAG == "Angel Wings" then
+    elseif MAG == "Angel's Wing" then
       Parse("NoSpacing",
         lang.l_mag .. "2nd or 3rd tier",
         lang.l_lvl .. "100+",
@@ -158,9 +158,9 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_stats .. "DEF + DEX = POW + MIND"
       )
       
-    elseif MAG == "Devil Tail" then
+    elseif MAG == "Devil's Tail" then
       Parse("NoSpacing",
-        lang.l_mag .. "Devil Wings",
+        lang.l_mag .. "Devil's Wing",
         lang.l_lvl, {"Any"},
         lang.l_class, {"Any"},
         lang.l_sex, {"Any"},
@@ -168,7 +168,7 @@ local function CreateSection(MAG, Parse, lang)
         lang.l_cell .. "Heart of Devil"
       )
       
-    elseif MAG == "Devil Wings" then
+    elseif MAG == "Devil's Wing" then
       Parse("NoSpacing",
         lang.l_mag .. "2nd or 3rd tier",
         lang.l_lvl .. "100+",
